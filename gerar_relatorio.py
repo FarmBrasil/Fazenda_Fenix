@@ -24,13 +24,16 @@ except ImportError:
 
 # ============================================================================
 # --- CONFIGURAÇÃO DO CLIENTE ---
-# ID e Estações do cliente "Dirceu Martins Comiran"
+# ID e Estações do cliente "Marco Cesar Esteves da Rocha"
 # ============================================================================
-CLIENTE_ID = 2271718 # ID DO CLIENTE (GROWER_ID)
-CLIENTE_NOME = "Dirceu Martins Comiran" # NOME DO CLIENTE
+CLIENTE_ID = 4583088 # ID DO CLIENTE (GROWER_ID)
+CLIENTE_NOME = "Marco Cesar Esteves da Rocha" # NOME DO CLIENTE
 ESTACOES_DO_CLIENTE = [
-    {'name': 'Portal da Amazonia', 'id_estacao': '58972', 'latitude': -14.0032, 'longitude': -59.2614},
-    {'name': 'Portal da Amazonia2', 'id_estacao': '65907', 'latitude': -14.0104, 'longitude': -59.2108},
+    {'name': 'Estação Fenix2', 'id_estacao': '81109', 'latitude': -11.7561, 'longitude': -56.093},
+    {'name': 'Estação Ranchão', 'id_estacao': '81110', 'latitude': -11.8267, 'longitude': -56.0858},
+    {'name': 'Estação Umuarama', 'id_estacao': '81111', 'latitude': -11.7903, 'longitude': -56.1383},
+    {'name': 'Estação Fenix1', 'id_estacao': '81112', 'latitude': -11.7508, 'longitude': -56.1294},
+    {'name': 'Estação Jaguaruna', 'id_estacao': '81113', 'latitude': -11.7508, 'longitude': -56.2642},
 ]
 # Define quantos anos de dados históricos buscar
 ANOS_DE_HISTORICO = 2
@@ -1055,3 +1058,4 @@ if __name__ == "__main__":
         traceback.print_exc()
         # Faz o script falhar para que o GitHub Actions reporte o erro
         exit(1)
+
